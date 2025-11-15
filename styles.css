@@ -168,6 +168,10 @@ a:hover {
 
 /* Theme Toggle Button */
 .theme-toggle {
+  position: fixed;       /* fixed so it stays on the screen */
+  bottom: 1.5rem;        /* distance from bottom edge */
+  right: 1.5rem;         /* distance from right edge */
+  z-index: 1000;         /* stays above other content */
   background: none;
   border: none;
   cursor: pointer;
